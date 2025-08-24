@@ -2,7 +2,7 @@
 Ready-to-use
 
 
-List of program on DESKTOP
+### List of program on DESKTOP
 
 ## [Windows]
 
@@ -30,7 +30,7 @@ List of program on DESKTOP
 
 
 
-## List of program on LAPTOP
+### List of program on LAPTOP
 
 ## [Windows]
 
