@@ -3,7 +3,8 @@ Ready-to-use
 
 
 List of program on DESKTOP
-[Windows]
+
+## [Windows]
 
 
 
@@ -14,7 +15,7 @@ List of program on DESKTOP
 
 
 
-[Linux]
+## [Linux]
 
 
 
@@ -29,8 +30,9 @@ List of program on DESKTOP
 
 
 
-List of program on LAPTOP
-[Windows]
+## List of program on LAPTOP
+
+## [Windows]
 
 
 
@@ -41,7 +43,7 @@ List of program on LAPTOP
 
 
 
-[Linux]
+## [Linux]
 
 
 
