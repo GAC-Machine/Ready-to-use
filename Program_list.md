@@ -1,12 +1,12 @@
 ## Programs list 
 
 [Desktop]
-### Windows
+# Windows
 
 
 
 
-#### Linux
+# Linux
 
 
 
@@ -40,7 +40,7 @@
 
 [Laptop]
 
-### Windows
+# Windows
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-#### Linux
+# Linux
 
 
 
