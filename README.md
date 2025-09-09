@@ -332,8 +332,9 @@ ActivityWatch                                                      0.13.2       
 
 ## [Windows]
 
+[software.txt](https://github.com/user-attachments/files/22243825/software.txt)
 
-
+Empty
 
 
 
