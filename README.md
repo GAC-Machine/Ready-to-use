@@ -8,6 +8,8 @@ Command to run on Powershall
 
 Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*, HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*, HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |Select-Object DisplayName, DisplayVersion, Publisher, Size, InstallDate | Format-Table -AutoSize > C:\Users\USERNAME\Desktop\software.txt
 
+[software.txt](https://github.com/user-attachments/files/22264458/software.txt)
+
 DisplayName                                                        DisplayVersion     Publisher                        
 -----------                                                        --------------     ---------                        
 Bitwarden                                                          2025.8.2           Bitwarden Inc.                   
