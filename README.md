@@ -354,7 +354,7 @@ Empty
 
 ## [Android]
 
-
+Command to run on adb (Android Debug Bridge)
 
 
 
