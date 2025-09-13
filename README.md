@@ -354,8 +354,12 @@ Empty
 
 ## [Android]
 
-Command to run on adb (Android Debug Bridge)
+Commands to run on adb (Android Debug Bridge)
 
+adb devices
+[accpet promp regardinf computer's RSA fingerprint, the one using adb from]
+devices
+adb shell cmd package list packages
 
 
 
