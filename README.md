@@ -364,7 +364,8 @@ adb devices
 adb devices
 
 adb shell cmd package list packages
-----
+
+
 package:com.ghisler.tcplugins.LAN
 package:com.android.updater
 package:com.mrsep.musicrecognizer
@@ -908,12 +909,13 @@ package:org.torproject.android
 package:com.cittadigitale
 package:com.supercell.brawlstars
 package:org.geogebra.android.calculator.suite
-----
+
 
 ## [Android]
+
 ### Tablet Lenovo Tab M11
 
-----
+
 package:com.lenovo.lsf.device
 package:com.ghisler.tcplugins.LAN
 package:com.elasticrock.keepscreenon
@@ -1340,4 +1342,3 @@ package:com.google.android.connectivity.resources
 package:com.namcobandaigames.pacmantournaments
 package:com.supercell.brawlstars
 package:org.geogebra.android.calculator.suite
-----
