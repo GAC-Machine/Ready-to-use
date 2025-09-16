@@ -1,6 +1,35 @@
 ### Commands > use > NOTE
 
-for %a in (%pathext%) do where *%a  > will list executables, batch and scripts accessible through the PATH env, this will include the default PATH entry, so just ignore those, it also can't tell whether an executable will launch GUI or completely CLI, but should be good enough to start. > https://www.reddit.com/r/techsupport/comments/1jteyx9/comment/mltqlz4/
+#### Model [PH > PH > PH]
+
+----
+
+> for %a in (%pathext%) do where *%a
+
+USE will list executables, batch and scripts accessible through the PATH env, this will include the default PATH entry, so just ignore those, it also can't tell whether an executable will launch GUI or completely CLI, but should be good enough to start.
+
+NOTE See this post on Reddit https://www.reddit.com/r/techsupport/comments/1jteyx9/comment/mltqlz4/
+
+----
+
+> Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*, HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*, HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |Select-Object DisplayName, DisplayVersion, Publisher, Size, InstallDate | Format-Table -AutoSize > C:\Users\USERNAME\Desktop\software.txt
+
+USE print installed programs list
+
+NOTE Command to run on Powershall
+
+----
+
+> adb devices
+> adb shell cmd package list packages   
+
+USE print installed apps in temrinal.
+
+NOTE Commands to run on adb (Android Debug Bridge). 
+
+[accpet promp regardinf computer's RSA fingerprint, the one using adb from]
+
+----
 
 
 
@@ -13,4 +42,156 @@ for %a in (%pathext%) do where *%a  > will list executables, batch and scripts a
 
 
 
-PH > PH > PH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
