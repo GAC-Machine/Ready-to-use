@@ -4,9 +4,6 @@ Ready-to-use: where to info on the post and you it according to set need/work to
 ### List of program on DESKTOP
 
 ## [Windows]
-Command to run on Powershall
-
-Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*, HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*, HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |Select-Object DisplayName, DisplayVersion, Publisher, Size, InstallDate | Format-Table -AutoSize > C:\Users\USERNAME\Desktop\software.txt
 
 [software.txt](https://github.com/user-attachments/files/22264458/software.txt)
 
@@ -317,7 +314,7 @@ ActivityWatch                                                      0.13.2       
 
 ## [Linux]
 
-
+N/A right now
 
 
 
@@ -338,7 +335,7 @@ ActivityWatch                                                      0.13.2       
 
 Empty
 
-
+Problem
 
 
 
@@ -346,25 +343,12 @@ Empty
 
 ## [Linux]
 
-
-
-
+N/A right now
 
 ### List of program on DESKTOP
 
 ## [Android]
 ### Phone Xiaomi Redmi Note 10 Pro
-
-Commands to run on adb (Android Debug Bridge)
-
-adb devices
-
-[accpet promp regardinf computer's RSA fingerprint, the one using adb from]
-
-adb devices
-
-adb shell cmd package list packages
-
 
 package:com.ghisler.tcplugins.LAN
 package:com.android.updater
