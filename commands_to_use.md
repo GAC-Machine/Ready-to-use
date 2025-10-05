@@ -33,6 +33,18 @@ NOTE Commands to run on adb (Android Debug Bridge).
 
 
 
+----
+
+
+
+
+
+
+
+
+
+-----
+
 
 
 
