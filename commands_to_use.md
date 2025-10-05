@@ -1,4 +1,4 @@
-### Commands > use > NOTE
+### COMMAND(S) > USE > NOTE
 
 #### Model [PH > PH > PH]
 
@@ -31,17 +31,43 @@ NOTE Commands to run on adb (Android Debug Bridge).
 
 ----
 
+[WINDOWS]
+> $env:TOKEN  = "token here"
+>
+> $headers = @{
+>    Authorization = "token $env:TOKEN"
+>    Accept        = "application/vnd.github.v3+json"
+>}
+>
+>$body = @{ last_read_at = "2026-05-31T00:00:00Z" } | ConvertTo-Json -Compress
+>
+>Invoke-RestMethod -Method PUT `
+>    -Uri "https://api.github.com/notifications" `
+>    -Headers $headers `
+>    -Body $body `
+>    -ContentType "application/json"
 
+[LINUX]
+> TOKEN="token_goes_here"; curl -X PUT -H "Accept: application/vnd.github.v3+json" -H "Authorization: token $TOKEN" https://api.github.com/notifications -d '{"last_read_at":"2026-05-31T00:00:00Z"}'
+
+USE 1. If you do get a ghost notification just open a bash window or powershell ise and use these methods to clear it.
+    2. You can make a temporary token here: https://github.com/settings/tokens/new
+    3. Create a token that will expire tomorrow, look for the notifications checkbox and click that, no other tick boxes are required.
+    4. After creating the token, grab the token and replace token_goes_here with your token, keep the quotes.
+
+NOTE Linux shell with Linux Curl.
+
+NOTE Windows users can do this: copy this and paste into Windows PowerShell ISE, then press the run button. Most Windows machine should have this, if not, just open up notepad (or any editor), paste the contents in, replace token here with your token, save the file as clearnotifs.ps1 or anything you like but must have .ps1 extension, then you can run from powershell with .\clearnotifs.ps1 in the current directory of the file.
+
+NOTE After you can confirm the notif is gone, vaporize the token.
+     For those who find this in the future and if the api is still the same, replace 2026 with the year after the current year. 2026>2027>2028>so on
+
+Reference [Reddit](https://www.reddit.com/r/github/comments/1npc0kw/in_recent_phishing_wave_a_ton_of_people_will_have/)
 
 ----
 
 
-
-
-
-
-
-
+NEXT 
 
 -----
 
