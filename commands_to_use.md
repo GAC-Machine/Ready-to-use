@@ -66,8 +66,11 @@ Reference [Reddit](https://www.reddit.com/r/github/comments/1npc0kw/in_recent_ph
 
 ----
 
+> sudo systemctl start NetworkManager.service
 
-NEXT 
+USE Start service that manage network, fundamental for wifi to work correctly.  
+
+NOTE Use in a terminal (used for Fedora 42 KDE Plasma Edition)
 
 -----
 
