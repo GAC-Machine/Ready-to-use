@@ -74,8 +74,15 @@ NOTE Use in a terminal (used for Fedora 42 KDE Plasma Edition)
 
 -----
 
+> sudo systemctl start NetworkManager.service
 
+USE Launch service that manage network, eg Wi-Fi
 
+> sudo systemctl kill NetworkManager.service
+
+USE End service that manage network, eg Wi-Fi
+
+----
 
 
 
